@@ -9,6 +9,7 @@ ro.lmk.log_stats=true
 debug.hwui.renderer=skiagl 
 renderthread.skia.reduceopstasksplitting=true
 debug.renderengine.backend=skiaglthreaded
+debug.sdm.support_writeback=0
 
 # Aux Expose
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
