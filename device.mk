@@ -231,6 +231,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    set_baseband.sh \
     ueventd.qcom.rc
 
 # IRSC
