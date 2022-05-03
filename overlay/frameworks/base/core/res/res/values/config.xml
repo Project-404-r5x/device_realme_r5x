@@ -447,4 +447,7 @@
 
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
 </resources>
