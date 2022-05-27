@@ -129,6 +129,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml
+ODM_MANIFEST_SKUS += nfc
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/manifests/manifest_nfc.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
@@ -138,6 +140,9 @@ TARGET_PROVIDES_KEYMASTER := true
 
 # Media
 TARGET_DISABLED_UBWC := true
+
+# NFC
+TARGET_USES_NQ_NFC := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
