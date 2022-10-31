@@ -16,3 +16,5 @@ persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,org.pixelexperience.faceunlock
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord,com.android.snapchat
 
+# IMS
+ro.telephony.block_binder_thread_on_incoming_calls=false
