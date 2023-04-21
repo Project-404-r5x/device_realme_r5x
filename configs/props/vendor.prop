@@ -150,6 +150,12 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # IORap app launch prefetching using Perfetto traces and madvise
 ro.iorapd.enable=true
 
+# IMS
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
 # Keystore
 ro.hardware.keystore_desede=true
 
