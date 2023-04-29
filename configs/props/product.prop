@@ -6,7 +6,7 @@ ro.config.low_ram=false
 ro.lmk.log_stats=true
 
 # Graphics
-debug.hwui.renderer=skiagl 
+debug.hwui.renderer=opengl
 renderthread.skia.reduceopstasksplitting=true
 debug.renderengine.backend=skiaglthreaded
 debug.sdm.support_writeback=0
