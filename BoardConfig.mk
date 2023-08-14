@@ -42,8 +42,9 @@ TARGET_BOARD_PLATFORM := trinket
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_r5x
